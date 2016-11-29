@@ -1,0 +1,335 @@
+#toprow {
+  width:100%;
+}
+
+#profilepic {
+  width:20%;
+  height:auto;
+  float:right;
+
+  margin-left:4%;
+}
+
+.navbar-header {
+
+}
+
+#bottomrow {
+  width:100%;
+  height:50px;
+  position:fixed;
+  background-color: #e5e5e5;
+  bottom:0;
+  text-align: center;
+}
+
+#bottomrow a {
+  text-decoration: none;
+  color:black;
+}
+
+.fa {
+  padding: 10px 8px 0px 8px;
+}
+
+#home {
+    margin: 0 auto;
+    display:block;
+}
+
+.container {
+  width:80%;
+}
+
+
+
+.lang {
+  height:30px;
+  width:56px;
+  background-color: #e5e5e5;
+  float:left;
+  margin-left:100px;
+}
+
+.lang:hover {
+  background-color: black;
+  cursor:pointer;
+}
+
+.lang p {
+  font-family: 'Raleway', serif;
+  font-weight: 700;
+  float:left;
+  padding-left:3px;
+  padding-right:4px;
+  margin-top:5px;
+}
+
+.lang p:hover {
+    color: #ffffff;
+    background-color: black;
+}
+
+.email {
+  height:30px;
+  width:275px;
+  background-color: #e5e5e5;
+  float:right;
+  margin-right:100px;
+}
+
+.email p {
+  font-family: 'Raleway', serif;
+  font-size:15px;
+  float:right;
+  padding-right:5px;
+  margin-top:5px;
+  letter-spacing:2px;
+
+}
+
+#emailicon {
+  height:20px;
+  width:auto;
+  padding-top:5px;
+  padding-left:5px;
+}
+
+#logomenu {
+  height:55px;
+  width:auto;
+  position:relative;
+  margin:12px;
+  vertical-align:top;
+
+}
+
+.navbar-toggle {
+  background-color: white;
+  border: 1px solid black;
+}
+
+.icon-bar {
+  background-color:black;
+
+}
+
+
+.nav {
+    font-family: 'Adobe Hebrew','Lora', sans-serif;
+    font-size: 20px;
+    color: #fff;
+    margin-left:auto;
+    margin-right:auto;
+    background-color: #ffffff;
+
+    width: 100%;
+    position: relative;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    text-align: center;
+}
+.nav ul {
+    list-style: none;
+    text-align: center;
+    display: block;
+    padding: 0px;
+    margin: 0 auto;
+
+}
+.nav ul li {
+    list-style-type: none;
+    text-align: center;
+
+    display: inline-block;
+    padding:10px;
+    margin-top:10px;
+    margin-left:10px;
+    margin-right:10px;
+    position:relative;
+    color:#3f040c;
+    letter-spacing: 2px;
+
+
+
+}
+.nav ul li a {
+    text-decoration: none;
+    color:#777676;
+    text-align: center;
+    display: block;
+    padding: 10px 10px 5px 10px;
+    margin: 0px;
+}
+.nav ul li a:hover {
+    color: #ffffff;
+    background-color: black;
+}
+
+#content {
+
+  padding-top:20px;
+  padding-left:20%;
+  padding-right:20%;
+}
+
+#bg {
+  width:100%;
+}
+
+.image {
+  position: relative;
+  width: 100%;
+  height:auto;
+}
+
+#text {
+  color:black;
+  font-family: 'Adobe Hebrew','Lora', serif;
+  font-size: 1.1em;
+  width:90%;
+  letter-spacing: 1px;
+  margin: 0 auto;
+  top: 20px;
+  text-align: justify;
+
+}
+
+
+
+/* Micutu */
+@media (max-width: 800px) {
+  .nav {
+    font-size: 14px;
+  }
+
+  .lang {
+    display:none;
+  }
+  .collapsed {
+    background-color:white;
+  }
+
+  #logomenu {
+    display: none;
+  }
+
+
+@media (max-width: 650px) {
+  .nav {
+    height: auto;
+  }
+  .email {
+    display: none;
+  }
+
+  #profilepic {
+    display:none;
+  }
+
+  #logomenu {
+    display: none;
+  }
+  #bottomrow {
+    height:40px;
+  }
+  .fa {
+    padding: 10px 5px 10px 5px;
+    font-size:5em;
+  }
+
+  #fb, #twitter, #insta {
+    font-size: 1.4em;
+  }
+
+}
+
+
+  .nav ul li {
+    font-size: 16px;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+  }
+}
+
+  .dropdown {
+  position: relative;
+  display: inline-block;
+  font-family: 'Adobe Hebrew','Lora', sans-serif;
+  }
+
+  .dropdown-content {
+  display: none;
+  position: absolute;
+  min-width: 151px;
+  margin-left: -13px;
+  margin-top: 5px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.8);
+  font-size: 0.9em;
+  z-index: 1;
+
+  }
+
+  #logocollapsedmenu {
+    height:40px;
+    width:auto;
+
+    transform: translateX(-50%);
+    left: 50%;
+    top:5px;
+
+    position: absolute;
+
+  }
+
+  .navbar-brand {
+    height:40px;
+  }
+
+  @media (min-width: 801px) {
+    #logocollapsedmenu {
+      display:none;
+    }
+  }
+
+  @media (max-width: 800px) {
+    #logocollapsedmenu {
+      display:block;
+    }
+  }
+
+  .dropdown-content a {
+  background-color: white;
+  color: black;
+  padding: 16px;
+  font-size: 0.9em;
+
+  text-decoration: none;
+  display: inline-block;
+  letter-spacing: 1px;
+
+  }
+
+  .dropdown-content a:hover {
+  background-color: black;
+  color: white;
+  }
+
+  .dropdown:hover .dropdown-content {
+  display: block;
+  }
+
+  .dropstyle {
+    margin-left:0px;
+  }
+
+  #spacedtext {
+  	color:black;
+  	font-family: 'Adobe Hebrew','Lora', sans-serif;
+  	font-size: 1.5em;
+  	letter-spacing: 5px;
+  	text-align:center;
+  	margin: 80px;
+
+}
