@@ -122,16 +122,14 @@ body {
   vertical-align:top;
 
 }
-
-
 .navbar-toggle {
   background-color: white;
   border: 1px solid black;
+  top:10px;
 }
 
 .icon-bar {
   background-color:black;
-
 }
 
 
@@ -244,6 +242,15 @@ body {
     display: none;
   }
 
+  .navbar-header {
+    height:70px;
+  }
+
+  #text, #texttutoring {
+  font-size:1.2em;
+  }
+
+
 
 @media (max-width: 650px) {
   .nav {
@@ -260,6 +267,7 @@ body {
   #logomenu {
     display: none;
   }
+
   #bottomrow {
     height:40px;
   }
@@ -272,6 +280,9 @@ body {
     font-size: 1.4em;
   }
 
+  .navbar-header {
+    height:70px;
+  }
 }
 
 
@@ -302,14 +313,13 @@ body {
   }
 
   #logocollapsedmenu {
-    height:40px;
+    height:55px;
     width:auto;
-
     transform: translateX(-50%);
     left: 50%;
-    top:5px;
-
+    top:7px;
     position: absolute;
+
 
   }
 
@@ -321,6 +331,8 @@ body {
     #logocollapsedmenu {
       display:none;
     }
+
+
   }
 
   @media (max-width: 800px) {
@@ -361,5 +373,29 @@ body {
   	letter-spacing: 5px;
   	text-align:center;
   	margin: 80px;
+}
+
+
+#sweetnam {
+  width:350px;
+  height:auto;
+  margin-top:15px;
+}
+
+#medicason {
+  width:300px;
+  height:auto;
+}
+
+/*#marginmedicason1 {
+
+  float:left;
+  margin-left:15%;
 
 }
+#marginmedicason2 {
+
+  float:right;
+  margin-right:15%;
+
+}*/
